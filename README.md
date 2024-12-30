@@ -14,7 +14,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Link
 
-- Solution URL: [QRCodeChallenge](https://your-solution-url.com)
+- Solution URL: [QRCodeChallenge](https://qr-code-challenge-sable-seven.vercel.app/)
 
 ### Built with
 
