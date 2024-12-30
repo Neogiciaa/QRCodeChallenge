@@ -7,13 +7,19 @@
     font-family: 'Outfit', 'sans-serif';
 }
 
+:root {
+    --slate-900: #1F314F;
+    --slate-500: #68778D;
+    --slate-300: #D5E1EF;
+}
+
 body {
     display: flex;
     width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-color: #D5E1EF;
+    background-color: var(--slate-300);
 
     .card {
         display: flex;
@@ -46,11 +52,13 @@ body {
 
             h1 {
                 margin-bottom: 20px;
+                color: var(--slate-900);
             }
 
             p {
                 width: 256px;
                 height: 63px;
+                color: var(--slate-500);
             }
         }
     }
@@ -67,18 +75,6 @@ body {
     a {
         color: hsl(228, 45%, 44%);
     }
-}
-
-.slate-900 {
-    color: #1F314F;
-}
-
-.slate-500 {
-    color: #68778D;
-}
-
-.slate-300 {
-    color: #D5E1EF;
 }
 
 .text-preset1 {
